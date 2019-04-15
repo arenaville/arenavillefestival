@@ -3268,14 +3268,15 @@ p {
 			padding: 3rem 0 0 0;
 		}
 
-		#container3 p	{
-		text-shadow: 0 0 0.5rem black;
-		}
-
 		#where-text p	{
 			text-align: left;
-			background-color: #000000;
-    padding: 0 6px;
+    	padding: 0 6px;
+		}
+
+		#where-button	{
+			border: 4px solid #ffffff;
+			background-color: #ffffff;
+			font-size: 1.2rem;
 		}
 
 /* Intro */
@@ -3455,10 +3456,6 @@ p {
 
 		@media screen and (max-width: 736px) {
 
-			.logo	{
-				width: 175px;
-			}
-
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
 			}
@@ -3473,11 +3470,17 @@ p {
 					max-width: 300px;
 				}
 
-						img#where	{
-							width: 80% !important;
+				img#where	{
+					display: none !important;
+				}
+
+						img#mobile-where	{
+							width: 30% !important;
 							float: none !important;
 							padding: 1rem 0 0 0;
+							display: inline-block !important;
 						}
+
 
 		}
 
@@ -3793,7 +3796,7 @@ p {
 
 			.partners	{
 				height: 80px;
-				margin: 0 1rem;
+				margin: 1rem 1rem;
 			}
 
 			#residents	{
@@ -3803,6 +3806,7 @@ p {
 				display: inline-block;
 				line-height: 2.4rem;
 				margin: 1rem 2rem;
+    		color: #6c9046;
 			}
 
 			#art-fair	{
@@ -3811,18 +3815,24 @@ p {
 				font-size: 2rem;
 				display: inline-block;
 				margin: 1rem 2rem;
+				color:#e662bb;
+			}
+
+			img#where	{
+				width: 50%;
+				float: right;
+				padding: 1rem 0 0 0;
+				display: inline-block;
+			}
+
+			img#mobile-where	{
+				display: none;
 			}
 
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
 					padding: 6rem 4rem 4rem 4rem ;
-				}
-
-				img#where	{
-					width: 50%;
-					float: right;
-					padding: 1rem 0 0 0;
 				}
 
 			}
@@ -3956,6 +3966,10 @@ p {
 
 			#main {
 				width: 100%;
+			}
+
+			.logo	{
+				width: 175px;
 			}
 
 		}
@@ -4667,6 +4681,10 @@ p {
 					padding: 0 1rem 0 0;
 				}
 
+				#where-text p	{
+					text-align: center;
+				}
+
 			}
 
 		@media screen and (max-width: 980px) {
@@ -4729,6 +4747,7 @@ div#container2 {
 
 div#container3 {
     border-top: #203277 2px solid;
+		background-color: #232323;
 }
 
 div#container4 {
