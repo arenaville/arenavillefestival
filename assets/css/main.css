@@ -3456,6 +3456,10 @@ p {
 
 		@media screen and (max-width: 736px) {
 
+			.logo	{
+				width: 175px;
+			}
+
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
 			}
