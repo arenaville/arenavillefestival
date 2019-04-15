@@ -3305,7 +3305,7 @@ p {
     text-align: center;
     vertical-align: top !important;
     z-index: 1;
-    min-height: 90vh;
+    min-height: 80vh;
 }
 
 		#intro input, #intro select, #intro textarea {
@@ -3445,7 +3445,6 @@ p {
 
 			#intro {
 				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
 			}
 
 				#intro + #header {
@@ -4704,7 +4703,7 @@ p {
 	}
 
 div.arrow	{
-	    min-height: 10vh;
+	    min-height: 20vh;
     	text-align: center;
 }
 
