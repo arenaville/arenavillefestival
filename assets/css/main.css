@@ -267,14 +267,6 @@ p {
 		margin: 3rem 0;
 	}
 
-	#main > a:nth-child(4) {
-	    font-size: 2.3rem;
-	}
-
-	#main > a:nth-child(5) {
-	    font-size: 2.3rem;
-	}
-
 		hr.major {
 			margin: 5rem 0;
 		}
@@ -3475,14 +3467,12 @@ p {
 				}
 
 				#intro p {
-					font-size: 1.2rem;
-					margin-top: 1.1rem;
 					max-width: 300px;
 				}
 
 						img#where	{
-							width: 80%;
-							float: none;
+							width: 80% !important;
+							float: none !important;
 							padding: 1rem 0 0 0;
 						}
 
