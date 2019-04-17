@@ -4755,17 +4755,12 @@ div#container4 {
     border-top: #203277 2px solid;
 }
 
-#container > div > a.band:nth-child(4) {
+#container > div > div:nth-child(4) > a:nth-child(1) {
     font-size: 2.6rem;
 		line-height: 5rem;
 }
 
-#container > div > a.band:nth-child(5) {
-    font-size: 2.6rem;
-		line-height: 5rem;
-}
-
-#container > div > a.band:nth-child(6) {
+#container > div > div:nth-child(4) > a:nth-child(2) {
     font-size: 2.6rem;
 		line-height: 5rem;
 }
@@ -4860,4 +4855,11 @@ h2#performers	{
 
 #where-text > p > a {
     color: #ffffff;
+}
+
+div.h2assist	{
+		text-align: center;
+		max-width: 460px;
+		display: inline-block;
+		clear: both;
 }
