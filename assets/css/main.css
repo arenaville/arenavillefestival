@@ -123,7 +123,7 @@ p {
 /* Type */
 
 	html {
-		font-size: 16pt;
+		font-size: 12pt;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -3262,10 +3262,10 @@ p {
 			padding: 0 1rem 0 0;
 		}
 
-		img#where	{
+		div#partner-text	{
 			width: 50%;
-			float: right;
-			padding: 3rem 0 0 0;
+			display: inline-block;
+			padding: 0 1rem 0 0;
 		}
 
 		#where-text p	{
@@ -3279,7 +3279,32 @@ p {
 			font-size: 1.2rem;
 		}
 
+		#partner-text p	{
+			text-align: left;
+    	padding: 0 6px;
+			color: #232323;
+		}
+
 /* Intro */
+
+.image-stack {
+  position: relative;
+  top: 0;
+  left: 0;
+	float: right;
+  width: 50%;
+}
+
+.stack-top {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.stack-bottom {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
 
 #intro {
     color: #ffffff;
@@ -3470,17 +3495,36 @@ p {
 					max-width: 300px;
 				}
 
-				img#where	{
+				#partner-text p {
+				    text-align: center;
+				}
+
+				div#partner-text {
+				    width: 100%;
+				}
+
+				img.where	{
 					display: none !important;
 				}
 
-						img#mobile-where	{
+						img.mobile-where	{
 							width: 30% !important;
 							float: none !important;
 							padding: 1rem 0 0 0;
 							display: inline-block !important;
 						}
 
+				.image-stack {
+				  position: relative;
+				  top: 0;
+				  left: 0;
+					float: none;
+					width: 100%;
+				}
+
+				.image-stack img	{
+					width: 70%;
+				}
 
 		}
 
@@ -3818,15 +3862,22 @@ p {
 				color:#e662bb;
 			}
 
-			img#where	{
+			img.where	{
 				width: 50%;
 				float: right;
 				padding: 1rem 0 0 0;
 				display: inline-block;
 			}
 
-			img#mobile-where	{
+			img.mobile-where	{
 				display: none;
+			}
+
+			img#partner	{
+				width: 50%;
+				float: right;
+				padding: 1rem 0 0 0;
+				display: inline-block;
 			}
 
 			@media screen and (max-width: 1280px) {
@@ -4681,6 +4732,12 @@ p {
 					padding: 0 1rem 0 0;
 				}
 
+				div#container-text	{
+					width: 100%;
+					display: block;
+					padding: 0 1rem 0 0;
+				}
+
 				#where-text p	{
 					text-align: center;
 				}
@@ -4862,4 +4919,9 @@ div.h2assist	{
 		max-width: 460px;
 		display: inline-block;
 		clear: both;
+}
+
+div#partners2	{
+	clear: both;
+	display: block;
 }
