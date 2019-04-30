@@ -110,6 +110,14 @@
 
 	};
 
+	$('#video_id').on('loadstart', function (event) {
+    $(this).addClass('loading');
+  });
+  $('#video_id').on('canplay', function (event) {
+    $(this).removeClass('loading');
+    $(this).attr('poster', '');
+  });
+
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
