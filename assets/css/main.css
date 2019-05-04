@@ -23,7 +23,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -4960,4 +4961,19 @@ div#partners2	{
 
 .mobile-image	{
 	display: none;
+}
+
+a#set-times {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 0.6rem;
+    background-color: #232323;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+#set-times:hover {
+    color: #232323;
+		background-color: #fff;
+		border: #232323 solid 2px;
 }
