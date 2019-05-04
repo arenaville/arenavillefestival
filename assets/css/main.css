@@ -4967,13 +4967,13 @@ a#set-times {
     font-size: 1.4rem;
     text-transform: uppercase;
     padding: 0.6rem;
-    background-color: #232323;
+    background-color: #3c5ddf;
     border: 2px solid #fff;
     color: #fff;
 }
 
 #set-times:hover {
-    color: #232323;
+    color: #3c5ddf;
 		background-color: #fff;
-		border: #232323 solid 2px;
+		border: #3c5ddf solid 2px;
 }
