@@ -3203,6 +3203,7 @@ p {
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
+		height: 100vh;
 	}
 
 		#wrapper > .bg {

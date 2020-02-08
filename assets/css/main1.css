@@ -26,19 +26,6 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-a#set-times {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    padding: 0.6rem;
-    background-color: #000;
-    border: 2px solid #fff;
-    color: #fff;
-}
-
-#set-times:hover {
-    color: #000;
-}
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
